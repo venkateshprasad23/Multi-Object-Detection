@@ -35,7 +35,7 @@ Here's a link to the same : ```https://colab.research.google.com/drive/1ZGeOyMdL
 If you plan to run the demo in Colab, please download the checkpoint file, config file and the demo image
 from this link : ```https://drive.google.com/drive/folders/16_E6UkY00AOnBQm4eSqSuUatWL7Ls6el?usp=sharing```
 
-Upload them to your Google Drive and update the directory pointing to the these three variables in the files. After that, just run the rest of the cells as it is. It wil install all the required packages for you.
+Upload them to your Google Drive and update the directory pointing to the these three variables in the Colan Notebook. After that, just run the rest of the cells as it is. It wil install all the required packages for you.
 
 If you plan to run it on UCSD DSMLP cluster, then, use the ```demo.ipynb``` file uploaded here. Change the directory to the three variables in the file after uploading them to DSMLP. After that, just run the rest of the cells as it is. It wil install all the required packages for you.
 
