@@ -17,6 +17,9 @@ conda install pytorch torchvision -c pytorch
 git clone https://github.com/venkateshprasad23/Multi-Object-Detection
 python setup.py develop
 ```
+### Code Organisation
+
+Code organisation has been done individually for each folder.
 
 ### Training
 
