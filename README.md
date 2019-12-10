@@ -44,8 +44,6 @@ to ```voc_eval_cascadercnn.py``` or ```voc_eval_fasterrcnn.py```.
 python Training and Testing Codes/voc_eval_fasterrcnn.py ${Result File} ${Model Config File}
 ```
 
-
-
 ### Running demo
 
 The demo has been developed on Google Colab. The Jupyter Notebook file of the same has been uploaded here.
@@ -57,7 +55,12 @@ from this link : ```https://drive.google.com/drive/folders/16_E6UkY00AOnBQm4eSqS
 
 Upload them to your Google Drive and update the directory pointing to the these three variables in the Colan Notebook. After that, just run the rest of the cells as it is. It wil install all the required packages for you.
 
-If you plan to run it on UCSD DSMLP cluster, then, use the ```demo.ipynb``` file uploaded here. Change the directory to the three variables in the file after uploading them to DSMLP. After that, just run the rest of the cells as it is. It wil install all the required packages for you.
+If you plan to run it on UCSD DSMLP cluster, then, use the ```demo.ipynb``` file uploaded here. Change the directory to the three variables in the file after uploading them to DSMLP. After that, just run the rest of the cells as it is. It will install all the required packages for you.
 
+### Team Members
+Venkatesh Prasad Venkataramanan
+Shakeel Ahamed Mansoor Shaikna
+Siddarth Meenakshi Sundaram
+Zirui Wang
 
 
