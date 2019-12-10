@@ -35,6 +35,17 @@ If your training suspends mid-way, and you need to resume from the latest checkp
 python Training and Testing Codes/train.py Model Dictionaries/${CONFIG_FILE} --resume_from=${checkpoint file}
 ```
 
+### Testing
+
+If you need to test your model and print its Mean Average Precision, you have to pass the pickle file as an argument\
+to ```voc_eval_cascadercnn.py``` or ```voc_eval_fasterrcnn.py```.
+
+```
+python Training and Testing Codes/voc_eval_fasterrcnn.py ${Result File} ${Model Config File}
+```
+
+
+
 ### Running demo
 
 The demo has been developed on Google Colab. The Jupyter Notebook file of the same has been uploaded here.
