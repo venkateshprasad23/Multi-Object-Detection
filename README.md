@@ -58,9 +58,9 @@ Upload them to your Google Drive and update the directory pointing to the these 
 If you plan to run it on UCSD DSMLP cluster, then, use the ```demo.ipynb``` file uploaded here. Change the directory to the three variables in the file after uploading them to DSMLP. After that, just run the rest of the cells as it is. It will install all the required packages for you.
 
 ### Team Members
-Venkatesh Prasad Venkataramanan
-Shakeel Ahamed Mansoor Shaikna
-Siddarth Meenakshi Sundaram
-Zirui Wang
+Venkatesh Prasad Venkataramanan\
+Shakeel Ahamed Mansoor Shaikna\
+Siddarth Meenakshi Sundaram\
+Zirui Wang.
 
 
