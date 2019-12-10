@@ -8,31 +8,21 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Run the following commands to set up your environment for the project.
 
 ```
 conda create -n Pullingos python=3.7 -y
 conda activate Pullingos
 conda install pytorch torchvision -c pytorch
-git clone https://github.com/open-mmlab/mmdetection.git
-cd mmdetection
+git clone https://github.com/venkateshprasad23/Multi-Object-Detection
 python setup.py develop
 ```
 
-### Installing
+### Training
 
-Follow the following commands to start training
-
+Follow the following commands to start training.
 ```
-git clone https://github.com/venkateshprasad23/Multi-Object-Detection
-cd Multi-Object-Detection
 python Training and Testing Codes/train.py Model Dictionaries/${CONFIG_FILE}
-```
-
-And repeat
-
-```
-until finished
 ```
 
 End with an example of getting some data out of the system or using it for a little demo
