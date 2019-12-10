@@ -11,8 +11,11 @@ xresnextfasterrcnn.pkl   -- Result file of Cascade RCNN using ResNeXt50
 
 ### Generating Result Pickle Files
 
-Download the checkpoints from : ```https://drive.google.com/drive/folders/15nKNvrvcy4eRfB0jK_awVdM5HEbaNjG7?usp=sharing```
+Download the checkpoints from : 
+```https://drive.google.com/drive/folders/15nKNvrvcy4eRfB0jK_awVdM5HEbaNjG7?usp=sharing```
+
 Add them to your local clone of Multi-Object-Detection under a suitable directory. 
+
 ```
 python Training and Testing Codes/voc_eval_fasterrcnn.py Model Dictionaries/FasterRCNN_ResNeXt50.py ${checkpoint file}
 ```
