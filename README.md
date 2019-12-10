@@ -1,6 +1,6 @@
 # Multi-Object-Detection
 
-Course Project for ECE 285 Special Topics in Robotics : Machine Learning for Image Processing
+Course Project for ECE 285 Special Topics in Robotics : Machine Learning for Image Processing, completed by Team Pullingos.
 
 ## Getting Started
 
@@ -20,32 +20,24 @@ python setup.py develop
 
 ### Training
 
-Follow the following commands to start training.
+Execute the following commands to start training.
 ```
 python Training and Testing Codes/train.py Model Dictionaries/${CONFIG_FILE}
 ```
+Choose a config file of your choice from the Model Dictionaries directory.
 
-End with an example of getting some data out of the system or using it for a little demo
+### Running demo
 
-## Running the tests
+The demo has been developed on Google Colab. The Jupyter Notebook file of the same has been uploaded here.
 
-Explain how to run the automated tests for this system
+Here's a link to the same : ```https://colab.research.google.com/drive/1ZGeOyMdLHNV82gRZC2Qad5jHTFE2VSxH```
 
-### Break down into end to end tests
+If you plan to run the demo in Colab, please download the checkpoint file, config file and the demo image
+from this link : ```https://drive.google.com/drive/folders/16_E6UkY00AOnBQm4eSqSuUatWL7Ls6el?usp=sharing```
 
-Explain what these tests test and why
+Upload them to your Google Drive and update the directory pointing to the these three variables in the files. After that, just run the rest of the cells as it is. It wil install all the required packages for you.
 
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
+If you plan to run it on UCSD DSMLP cluster, then, use the ```demo.ipynb``` file uploaded here. Change the directory to the three variables in the file after uploading them to DSMLP. After that, just run the rest of the cells as it is. It wil install all the required packages for you.
 
 
 
