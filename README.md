@@ -29,6 +29,12 @@ python Training and Testing Codes/train.py Model Dictionaries/${CONFIG_FILE}
 ```
 Choose a config file of your choice from the Model Dictionaries directory.
 
+If your training suspends mid-way, and you need to resume from the latest checkpoint, use the command below.
+
+```
+python Training and Testing Codes/train.py Model Dictionaries/${CONFIG_FILE} --resume_from=${checkpoint file}
+```
+
 ### Running demo
 
 The demo has been developed on Google Colab. The Jupyter Notebook file of the same has been uploaded here.
