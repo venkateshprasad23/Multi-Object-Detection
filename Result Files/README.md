@@ -17,5 +17,5 @@ Download the checkpoints from :\
 Add them to your local clone of Multi-Object-Detection under a suitable directory. 
 
 ```
-python Training and Testing Codes/voc_eval_fasterrcnn.py Model Dictionaries/FasterRCNN_ResNeXt50.py ${checkpoint file} --out results.pkl
+python Training and Testing Codes/test.py Model Dictionaries/FasterRCNN_ResNeXt50.py ${checkpoint file} --out results.pkl
 ```
