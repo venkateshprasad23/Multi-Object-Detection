@@ -2,6 +2,10 @@
 
 Course Project for ECE 285 Special Topics in Robotics : Machine Learning for Image Processing, completed by Team Pullingos.
 
+## Description
+
+Please refer to ```MOD_Report.pdf``` for a detailed report in the NIPS Conference Template.
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
